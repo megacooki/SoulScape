@@ -1,0 +1,86 @@
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SoulScape is a halloween-themed 2D game created for the Dresscode Haloween Coding Competition 2023">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulScape - Haloween Game Competition</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png"/>
+  <body>
+    <div class="container">
+      <div class="content">
+      <div class="game">
+        <iframe width="990" height="655" src="https://soulscape.megacookie.repl.co/hosted/V1.04.7/index.html">
+        </iframe>
+      </div>
+      <div class="info" id="about">
+<hr>
+        <section>
+          <h2>About</h2>
+          <p>SoulScape is a haloween-themed game that I made for the <a href="https://www.dresscode.org.uk/competitions/halloween-23" target="_blank">Dresscode Haloween Coding Competition 2023</a>. I made it in the <a href="https://unity.com/" target="_blank">Unity Game Engine</a> and coded it in C#. You have to complete a variety of levels that gradually progress in difficulty by collecting all of the pumpkins on each level.
+          </p>
+        </section>
+        
+
+        <section>
+          <h2>Controls</h2>
+          <p>
+            <button>A / Left Arrow</button> Move Left<br>
+            <button>D / Right Arrow</button> Move Right<br>
+            <button class="controller-button-large">SPACE</button> Jump<br>
+            <button class="controller-button-large">ENTER</button> Restart Level<br>
+          </p>
+        </section>
+
+        <section>
+          <h2>Content Attributions</h2>
+          <ul>
+            <li>Music by <a href="https://pixabay.com/users/geoffharvey-9096471/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=122118">Geoff Harvey</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=122118">Pixabay</a>
+            <li>Item Collect Sound Effect by <a href="https://pixabay.com/users/lesiakower-25701529/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=145251">Lesiakower</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=145251">Pixabay</a></li>
+            </li>
+            <li>In-game font from <a href="https://www.dafont.com/pixelsplitter.font" target="_blank">dafont.com</a></li>
+            </li>
+         </ul>
+        </section>
+
+        <section>
+          <h2>Game Info</h2>
+          <ul>
+            <li>Version: 1.04.7</li>
+            <li>Game Engine: Unity (WebGL)</li>
+            <li>Programmed In: C#</li>
+            <li>Last Updated: 1/11/23</li>
+         </ul><br>a
+          <div class="grid">
+            <img src="images/How-Its-Made.png">
+          <p><br>
+            I made this website and all of the game's pixel art (not including fonts) from scratch. I made this site in HTML, CSS + Javascript and I created soulscape in <a href="https://unity.com/" target="_blank">Unity</a> and C#.
+          <br>
+          </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Feedback</h2>
+          <ul>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-Tp75Av9KnEpLTppoHs7Y9x9iIt_2RAWLHikGArzFoHYsRw/viewform?usp=sf_link" target="_blank">Report A Bug</a></li>
+          </ul>
+        </section>
+        <hr>
+      </div>
+    </div>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <div class="bg-image"></div>
+    </div>
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-left"></script>
+  </body>
+</html>
